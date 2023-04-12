@@ -1,12 +1,10 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Parent from './classes/Parent';
+import ClassesRoot from './classes/ClassesRoot';
 
 function App() {
   return (
     <>
-      <Parent />
+      <ClassesRoot />
     </>
   );
 }
