@@ -1,12 +1,12 @@
 import React from "react";
 
-interface GlobalState {
+export interface GlobalState {
   value1: boolean;
   value2: string;
 }
 
 
-const GlobalContext = React.createContext<GlobalState>({
+export const GlobalContext = React.createContext<GlobalState>({
   value1: false,
   value2: '',
 });
@@ -20,7 +20,7 @@ interface GlobalProviderProps {
 class GlobalProvider extends React.Component<GlobalProviderProps, GlobalState> {
   state: GlobalState = {
     value1: false,
-    value2: '',
+    value2: '하이',
   };
 
   render() {
