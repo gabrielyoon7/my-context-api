@@ -6,6 +6,7 @@ class ClassesRoot extends React.Component {
   render() {
     return (
       <GlobalProvider>
+        <h2>Classes Context API</h2>
         <Parent />
       </GlobalProvider>
     );
